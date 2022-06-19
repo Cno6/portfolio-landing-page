@@ -1,0 +1,12 @@
+h1 {
+  @include font($size: 48, $height: 59, $weight: 700);
+}
+
+h2 {
+  @include font($size: 34, $height: 42, $weight: 700);
+}
+
+h3 {
+  @include font($size: 14, $height: 17, $weight: 700);
+  color: $color-gray;
+}

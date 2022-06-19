@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__item {
+  color: $color-gray;
+  font-weight: 700;
+  &_active {
+    color: $color-black;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}

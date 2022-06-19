@@ -1,0 +1,33 @@
+.program-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.program-cards__item {
+  width: 166px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.item-card {
+}
+.item-card__icon {
+  width: 90px;
+  height: 89px;
+}
+.item-card__title {
+  max-width: 80px;
+  margin: 24px 0 41px;
+}
+.item-card__rate {
+}
+.rate {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.rate__star {
+}
+.rate__star_empty {
+}

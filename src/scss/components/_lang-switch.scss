@@ -1,0 +1,27 @@
+.lang-switch {
+  color: $color-gray;
+  cursor: default;
+  
+  &__vertical {
+    position: relative;
+    transform: rotate(-90deg);
+    bottom: 25px;
+    right: -25px;
+  }
+}
+.lang-switch__item {
+  &:not(:last-child) {
+    padding-right: 5px;
+    border-right: 3px solid $color-black;
+  }
+  &:not(.lang-switch__item_active) {
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.lang-switch__item_active {
+  font-weight: 700;
+  color: $color-black;
+}

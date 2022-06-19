@@ -1,0 +1,10 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: $color-white;
+  border-bottom: 1px solid $color-gray;
+  z-index: 50;
+  padding: 33px 0px;
+}
+.header__container {
+}

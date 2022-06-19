@@ -1,0 +1,20 @@
+.page__about {
+  background-color: $color-light-gray;
+  padding-top: 120px;
+  padding-bottom: 107px;
+}
+.about {
+}
+.about__content {
+  margin: 35px auto 0;
+  width: 485px;
+}
+.about__container {
+}
+.section-title {
+}
+.about__description {
+  &:not(:last-child) {
+    margin-bottom: (1034 - 985) + px;
+  }
+}
