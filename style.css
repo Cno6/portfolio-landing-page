@@ -59,6 +59,10 @@ body {
   box-sizing: content-box;
 }
 
+.hidden {
+  display: none;
+}
+
 h1 {
   font-size: 48px;
   line-height: 59px;
@@ -135,7 +139,7 @@ h3 {
 
 .about__content {
   margin: 35px auto 0;
-  width: 485px;
+  width: 500px;
 }
 
 .about__description:not(:last-child) {
