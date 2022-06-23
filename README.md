@@ -6,6 +6,5 @@ Implemented the function to change the language of the page, working anchor link
 
 **W.I.P**:
 - Adaptive
-- Fix scoial links hover in footer
 
 ![Landng Page Screenshot](https://user-images.githubusercontent.com/68184759/175244050-e42222b5-03d8-4dae-a015-cbca511f0a31.png)

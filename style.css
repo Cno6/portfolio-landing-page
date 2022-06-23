@@ -32,6 +32,10 @@ h6 {
   font-size: inherit;
 }
 
+object {
+  pointer-events: none;
+}
+
 html,
 body {
   font-size: 18px;
