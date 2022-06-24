@@ -18,3 +18,10 @@
     margin-bottom: (1034 - 985) + px;
   }
 }
+
+@media (max-width: $medium-screen) {
+  .page__about {
+    background-color: $color-light-gray;
+    padding: 60px 0;
+  }
+}

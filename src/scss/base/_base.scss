@@ -30,3 +30,9 @@ img {
   margin: 0 auto;
   max-width: 100%;
 }
+
+@media (max-width: $medium-screen) {
+  ._container {
+    padding: 0 40px;
+  }
+}

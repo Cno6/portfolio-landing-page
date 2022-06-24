@@ -9,3 +9,9 @@
 .portfolio__works {
   margin-top: 57px;
 }
+@media (max-width: $medium-screen) {
+  .page__portfolio {
+    background-color: $color-light-gray;
+    padding: 60px 0;
+  }
+}

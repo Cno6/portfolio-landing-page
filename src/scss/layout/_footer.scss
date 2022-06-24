@@ -10,3 +10,12 @@
 .footer__description {
   margin: 20px 0 30px;
 }
+@media (max-width: $medium-screen) {
+  .footer {
+    padding: 60px 0;
+  }
+
+  .footer__contacts {
+    margin-bottom: 40px;
+  }
+}

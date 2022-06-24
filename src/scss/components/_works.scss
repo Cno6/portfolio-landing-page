@@ -18,3 +18,13 @@
     color: red;
   }
 }
+@media (max-width: $medium-screen) {
+  .works__item {
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+  .item-work__img {
+    margin-bottom: 25px;
+  }
+}

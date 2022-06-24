@@ -1,6 +1,8 @@
 .program-cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 .program-cards__item {
   width: 166px;
@@ -30,4 +32,16 @@
 .rate__star {
 }
 .rate__star_empty {
+}
+
+@media (max-width: $medium-screen) {
+  .program-cards {
+    justify-content: space-around;
+  }
+
+  .program-cards__item {
+    margin: 0 5% 10%;
+    flex: 1 1 50%;
+    max-width: 168px;
+  }
 }

@@ -15,9 +15,14 @@
 }
 .author-name {
   max-width: 123px;
-  margin-bottom: -10px;
 }
 .author-description {
 }
 .home__photo {
+}
+
+@media (max-width: $medium-screen) {
+  .page__home {
+    padding-bottom: 60px;
+  }
 }

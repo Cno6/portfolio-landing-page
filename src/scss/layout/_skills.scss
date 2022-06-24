@@ -14,3 +14,8 @@
 .skills__description {
   margin: 69px 0 83px;
 }
+@media (max-width: $medium-screen) {
+  .page__skills {
+    padding: 60px 40px;
+  }
+}
