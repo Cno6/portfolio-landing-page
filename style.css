@@ -67,6 +67,12 @@ body {
   display: none;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 h1 {
   font-size: 48px;
   line-height: 59px;

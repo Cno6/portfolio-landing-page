@@ -24,3 +24,9 @@ body {
 .hidden {
   display: none;
 }
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}

@@ -56,7 +56,13 @@
               </div>
             </div>
             <div class="home__photo">
-              <img src="./src/img/header/header-photo.jpg" alt="Denis Novik">
+              <img srcset="./src/img/header/header-photo-320.jpg 320w,
+                           ./src/img/header/header-photo-480.jpg 480w,
+                           ./src/img/header/header-photo-945.jpg 945w," 
+                   sizes="(max-width: 375px) 320px,
+                          (max-width: 480px) 480px,
+                          945px"
+                   src="./src/img/header/header-photo-945.jpg" alt="Denis Novik">
             </div>
           </div>
         </section>
