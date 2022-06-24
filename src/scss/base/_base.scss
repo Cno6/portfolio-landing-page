@@ -36,3 +36,9 @@ img {
     padding: 0 40px;
   }
 }
+
+@media (max-width: $small-screen) {
+  ._container {
+    padding: 0 29px;
+  }
+}

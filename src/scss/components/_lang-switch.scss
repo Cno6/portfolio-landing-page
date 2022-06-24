@@ -25,3 +25,18 @@
   font-weight: 700;
   color: $color-black;
 }
+
+@media (max-width: $small-screen) {
+  .lang-switch {
+    display: none;
+  }
+
+  .nav__lang-switch {
+    display: inline;
+    &.lang-switch__vertical {
+      position: static;
+      transform: rotate(0deg);
+    }
+  }
+
+}

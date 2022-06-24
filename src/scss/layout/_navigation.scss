@@ -30,6 +30,9 @@
   transition: all 0.3s ease-in-out;
   background-color: $color-black;
 }
+.nav__lang-switch {
+  display: none;
+}
 
 @media (max-width: $medium-x-screen) {
   .nav {
